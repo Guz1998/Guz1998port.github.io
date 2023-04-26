@@ -1,0 +1,407 @@
+@import url("https://fonts.cdnfonts.com/css/product-sans");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Product Sans", sans-serif;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+/* Sidebar */
+.sidebar {
+  background-color: #f1f1f1;
+  width: 75px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(25.5, 25.5, 25.5);
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 30%;
+  font-size: 20px;
+}
+
+.sidebar-item01,
+.sidebar-item02,
+.sidebar-item03,
+.sidebar-item04 {
+  padding: 10px auto;
+  margin: auto 10px;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+  color: rgb(76.5, 76.5, 76.5);
+}
+
+.sidebar-item01:hover,
+.sidebar-item02:hover,
+.sidebar-item03:hover,
+.sidebar-item04:hover {
+  color: #ff0043;
+}
+
+.tooltip {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tooltip .tooltiptext {
+  text-align: center;
+  visibility: hidden;
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px;
+  top: 10;
+  left: 100%;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 100%;
+}
+
+/*Contenido*/
+
+.contenido {
+  width: 90%;
+  padding: 60px auto;
+  margin: auto 0px 0px 75px;
+  max-width: 1800px;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3.5em;
+  flex-wrap: wrap;
+  flex-basis: 150px;
+}
+
+.contenido > * {
+  flex: 1 1 200px; /* Cambiar 200px al ancho deseado para cada hijo del contenedor */
+}
+
+.text01 > h1 {
+  color: #f1f1f1;
+  font-size: 50px;
+}
+.logo > img {
+  width: 100%;
+}
+
+/*Carrousel*/
+
+.carousel-container {
+  background-color: black; /* Establece el color de fondo a negro */
+  opacity: 0.2; /* Establece la opacidad al 50% para oscurecer el div */
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  z-index: -2;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Ventana emergente del boton info */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.modal-content {
+  background-color: #1f1f1f;
+  padding: 20px;
+  max-width: 500px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  color: #f1f1f1;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infbutton {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.infbutton > button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-color: #ff0043;
+  color: #f1f1f1;
+  transition: 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.infbutton > button:hover {
+  background-color: #ff0043;
+}
+.modal.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal.active .modal-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cajafull {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 75px;
+  flex-wrap: wrap;
+  
+}
+
+.categoria {
+  padding-bottom: 20px;
+}
+
+.seleccion_categoria {
+  font-size: 25px;
+  text-align: center;
+  background: none;
+  color: #f1f1f1;
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0.5px solid #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  padding: 10px 50px;
+}
+
+.seleccion_categoria:hover {
+  border: 1px solid #ff0043;
+}
+
+.contenedor-edicion {
+  background-color: #262626;
+  /* padding: 0px 0px 100px 0px; */
+  border-radius: 3px;
+  width: 325px;
+  height: 300px;
+}
+
+.contenedor-edicion01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.edicion_botones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.edicion_botones > button {
+  margin: 5px 0;
+  font-size: 20px;
+  background: none;
+  color: #f1f1f1;
+  border-radius: 3px;
+  padding: 5px 15px;
+  border-style: solid;
+  border-color: #ff0043;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.edicion_botones > button:hover {
+  background-color: #ff0043;
+}
+
+.textcontainer > iframe{
+  width: 400px;
+  height: 250px;
+  border-style: none;
+}
+
+.portfolio{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+
+.portfolio > .contenedor-edicion{
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    height: 10%;
+    top: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .contenido {
+    margin: auto 0px 0px 0px;
+  }
+
+  .tooltip > .tooltiptext {
+    top: -65px;
+    left: -30%;
+  }
+
+  .cajafull{
+    margin-left: 0px;
+  }
+}
