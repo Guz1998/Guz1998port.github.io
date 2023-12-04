@@ -1,241 +1,1266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet" />
-    <link rel="stylesheet" href="index.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <title>Portfolio - Diseños</title>
-  </head>
 
-  <body>
-    <!-- Contenedor de Categoría + Caja -->
-    <div class="cajafull">
-      <!-- Seleccion de categoría -->
-      <div class="categoria">
-        <select class="seleccion_categoria" id="filtro-categorias">
-          <option value="todos">Todos</option>
-          <option value="Ciencia">Ciencia</option>
-          <option value="Música">Música</option>
-          <option value="Motivación">Motivación</option>
-          <option value="NFT">NFT</option>
-          <option value="Finanzas">Finanzas</option>
-          <option value="Misterio">Misterio</option>
-        </select>
-      </div>
+<head>
+  <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <title>Portfolio - Diseños</title>
+</head>
 
-      <!-- Contenedor de las cajas -->
-      <div class="portfolio">
-        <!-- Caja01 -->
-        <div class="contenedor-edicion" data-categoria="Misterio">
-          <div class="contenedor-edicion01">
-            <div class="edicion_video">
-              <img
-                src="https://i.ibb.co/tQpS11r/03.jpg" width="320" height="180"
-                alt="Miniatura del video de YouTube"
-              />
-            </div>
-            <div class="edicion_botones">
-              <button class="btnPrevisualizar01">Previsualizar</button>
-              <button>
-                <a
-                  href="https://wa.me/584249304032?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
-                  target="_blank"
-                  >¡Quiero este estilo!</a
-                >
-              </button>
-            </div>
+<body>
+  <!-- Contenedor de Categoría + Caja -->
+  <div class="cajafull">
+    <!-- Seleccion de categoría -->
+    <div class="categoria">
+      <select class="seleccion_categoria" id="filtro-categorias">
+        <option value="Todos">Todos</option>
+        <option value="Thumbnails">Thumbnails</option>
+        <option value="Diseños">Diseños</option>
+      </select>
+    </div>
+
+    <!-- Contenedor de las cajas -->
+    <div class="portfolio">
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+      <!-- Caja01 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e181b185151645.6560dc1108db6.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
           </div>
-        </div>
-        <!-- Ventana emergente de la caja -->
-        <div id="modal01" class="modal">
-          <div class="modal-content">
-            <div class="textcontainer">
-              <!-- Cambiar imagen -->
-              <a href="https://i.ibb.co/1JpMPMG/03.jpg" target="_blank"><img src="https://i.ibb.co/tQpS11r/03.jpg"  width="480" height="270"> </img></a>
-            </div>
-            <div class="infbutton">
-              <button class="infobutton">
-                <a
-                  href="https://wa.me/584249304032?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
-                  target="_blank"
-                  >¡Contáctame!</a
-                >
-              </button>
-            </div>
-          </div>
-        </div>
-
-        
-                <!-- Caja02 -->
-                <div class="contenedor-edicion" data-categoria="Misterio">
-                  <div class="contenedor-edicion01">
-                    <div class="edicion_video">
-                      <img
-                        src="https://i.ibb.co/9c4H36J/07.jpg" width="320" height="180"
-                        alt="Miniatura del video de YouTube"
-                      />
-                    </div>
-                    <div class="edicion_botones">
-                      <button class="btnPrevisualizar02">Previsualizar</button>
-                      <button>
-                        <a
-                          href="https://wa.me/584249304032?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
-                          target="_blank"
-                          >¡Quiero este estilo!</a
-                        >
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <!-- Ventana emergente de la caja -->
-                <div id="modal02" class="modal">
-                  <div class="modal-content">
-                    <div class="textcontainer">
-                      <!-- Cambiar imagen -->
-                      <a href="https://i.ibb.co/t3KqBmM/07.jpg" target="_blank"><img src="https://i.ibb.co/9c4H36J/07.jpg"  width="480" height="270"> </img></a>
-                    </div>
-                    <div class="infbutton">
-                      <button class="infobutton">
-                        <a
-                          href="https://wa.me/584249304032?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
-                          target="_blank"
-                          >¡Contáctame!</a
-                        >
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-       
-
-<!-- Caja03 -->
-<div class="contenedor-edicion" data-categoria="Ciencia">
-  <div class="contenedor-edicion01">
-    <div class="edicion_video">
-      <img
-        src="https://i.ibb.co/XJ0rMjY/08.jpg" width="320" height="180"
-        alt="Miniatura del video de YouTube"
-      />
-    </div>
-    <div class="edicion_botones">
-      <button class="btnPrevisualizar03">Previsualizar</button>
-      <button>
-        <a
-          href="https://wa.me/584249304032?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
-          target="_blank"
-          >¡Quiero este estilo!</a
-        >
-      </button>
-    </div>
-  </div>
-</div>
-<!-- Ventana emergente de la caja -->
-<div id="modal03" class="modal">
-  <div class="modal-content">
-    <div class="textcontainer">
-      <!-- Cambiar imagen -->
-      <a href="https://i.ibb.co/PGRYSJ0/08.jpg" target="_blank"><img src="https://i.ibb.co/XJ0rMjY/08.jpg"  width="480" height="270"> </img></a>
-    </div>
-    <div class="infbutton">
-      <button class="infobutton">
-        <a
-          href="https://wa.me/584249304032?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
-          target="_blank"
-          >¡Contáctame!</a
-        >
-      </button>
-    </div>
-  </div>
-</div>
-
-       
-
-
- 
-      </div>
-    </div>
-
-    <!-- Sidebar -->
-    <div class="sidebar">
-      <ul class="sidebar-list">
-        <div class="tooltip">
-          <!-- Botón Home -->
-          <a href="./index.html"
-            ><li class="sidebar-item01">
-              <i class="fa-solid fa-house"></i></li
-          ></a>
-          <span class="tooltiptext">Home</span>
-        </div>
-        <!-- Boton de diseños -->
-        <div class="tooltip">
-          <a href="./diseño.html"
-            ><li class="sidebar-item02"><i class="fa-regular fa-image"></i></li
-          ></a>
-          <span class="tooltiptext">Diseños</span>
-        </div>
-        <!-- Botón de ediciones -->
-        <div class="tooltip">
-          <a href="./edicion.html"
-            ><li class="sidebar-item03">
-              <i class="fa-solid fa-video"></i></li
-          ></a>
-          <span class="tooltiptext">Ediciones</span>
-        </div>
-        <!-- Botón de info -->
-        <div class="tooltip">
-          <li class="sidebar-item04">
-            <i class="fa-solid fa-circle-info"></i>
-          </li>
-          <span class="tooltiptext">Info</span>
-        </div>
-      </ul>
-
-      <!-- Ventana emergente de info -->
-      <div id="modal" class="modal">
-        <div class="modal-content">
-          <div class="textcontainer">
-            <p>
-              ¡Hola! Ofrezco servicios de edición básica de video a precios
-              asequibles. Aquí están mis tarifas:<br /><br />
-
-              - Videos de menos de 5 minutos: $10<br />
-              - Videos de 5 a 10 minutos: $15<br />
-              - Shorts para Tik-Tok/Youtube: 5$<br />
-              - Miniaturas: 3$<br /><br />
-
-              Mi servicio de edición básica incluye el uso de videos de stock,
-              transiciones y motion graphics para mejorar la calidad visual de
-              tus videos. Estos elementos pueden agregarle un toque profesional
-              y dinámico a tus videos, haciéndolos más atractivos y
-              efectivos.<br /><br />
-
-              Estoy comprometido en proporcionar un servicio de alta calidad que
-              se ajuste a tus necesidades y presupuesto. Si estás buscando una
-              edición básica pero efectiva para tus videos, estaré encantado de
-              ayudarte. ¡Contáctame para discutir más detalles y trabajar juntos
-              en tu proyecto!
-            </p>
-          </div>
-          <div class="infbutton">
-            <button class="infobutton">
-              <a
-                href="https://wa.me/+584249304032?text=%C2%A1Hola!%20Estoy%20interesado%20en%20tus%20servicios%20de%20edici%C3%B3n%20y%20dise%C3%B1o%20de%20miniaturas."
-                target="_blank"
-                >¡Contáctame!</a
-              >
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar01">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
             </button>
           </div>
         </div>
       </div>
-    </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal01" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e181b185151645.6560dc1108db6.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e181b185151645.6560dc1108db6.png"
+                max-width="none" height="500"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
 
-    <script src="index.js"></script>
-    <script src="seleccionador.js"></script>
-  </body>
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+      <!-- Caja02 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/07d44d185151645.656cddb1108b5.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
+          </div>
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar02">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal02" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/07d44d185151645.656cddb1108b5.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/07d44d185151645.656cddb1108b5.jpg"
+                max-width="none" height="500"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!-- Caja03 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c8334b185151645.655e9960d86a6.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
+          </div>
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar03">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal03" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c8334b185151645.655e9960d86a6.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c8334b185151645.655e9960d86a6.png"
+                max-width="none" height="250"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!-- Caja04 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a53ef2179323483.6569c8cf24fba.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
+          </div>
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar04">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal04" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a53ef2179323483.6569c8cf24fba.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a53ef2179323483.6569c8cf24fba.png"
+                max-width="none" ; height="500"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!-- Caja05 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/14a158179323483.6569c8cf25b4d.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
+          </div>
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar05">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal05" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/14a158179323483.6569c8cf25b4d.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/14a158179323483.6569c8cf25b4d.png"
+                max-width="none" ; height="500"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!-- Caja06 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2c5011179322141.656ce537e3555.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
+          </div>
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar06">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal06" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2c5011179322141.656ce537e3555.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2c5011179322141.656ce537e3555.png"
+                max-width="none" ; height="500"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!-- Caja07 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/645829179322141.64f79c25c17d0.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
+          </div>
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar07">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal07" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/645829179322141.64f79c25c17d0.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/645829179322141.64f79c25c17d0.png"
+                max-width="none" ; height="500"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!-- Caja08 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/985596179323419.655e8b987e0eb.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
+          </div>
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar08">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal08" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/985596179323419.655e8b987e0eb.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/985596179323419.655e8b987e0eb.jpg"
+                max-width="none" ; height="500"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+      <!-- Caja09 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/aeec27179323419.656cf88e638d9.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" />
+          </div>
+          <div class="edicion_botones">
+            <button class="btnPrevisualizar09">Previsualizar</button>
+            <button>
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Ventana emergente de la caja -->
+      <div id="modal09" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer">
+            <!-- Cambiar imagen -->
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/aeec27179323419.656cf88e638d9.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/aeec27179323419.656cf88e638d9.png"
+                max-width="none" ; height="500"> </img></a>
+          </div>
+          <div class="infbutton">
+            <button class="infobutton">
+              <a href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Caja 10 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/247e82185151645.655e99610953f.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar10">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal10" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/247e82185151645.655e99610953f.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/247e82185151645.655e99610953f.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+
+
+
+      <!-- Caja 11 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ee2498185151645.655e9960e5afb.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar11">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal11" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ee2498185151645.655e9960e5afb.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ee2498185151645.655e9960e5afb.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 12 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/71469b185151645.655e996113984.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar12">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal12" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/71469b185151645.655e996113984.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/71469b185151645.655e996113984.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 13 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/2e724a185151645.655e9960ea4d5.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar13">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal13" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/2e724a185151645.655e9960ea4d5.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/2e724a185151645.655e9960ea4d5.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 14 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/098a07185151645.655e996100ff5.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar14">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal14" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/098a07185151645.655e996100ff5.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/098a07185151645.655e996100ff5.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 15 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/916f58185151645.655e9960e2e6b.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar15">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal15" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/916f58185151645.655e9960e2e6b.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/916f58185151645.655e9960e2e6b.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 16 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/8e08de185151645.655e99610ed73.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar16">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal16" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/8e08de185151645.655e99610ed73.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/8e08de185151645.655e99610ed73.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 17 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c38891185151645.655e9961113b8.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar17">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal17" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c38891185151645.655e9961113b8.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c38891185151645.655e9961113b8.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 18 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/df4b97185151645.655e9960dd8d4.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar18">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal18" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/df4b97185151645.655e9960dd8d4.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/df4b97185151645.655e9960dd8d4.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 19 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1698a7185151645.655e996103a44.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar19">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal19" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1698a7185151645.655e996103a44.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1698a7185151645.655e996103a44.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 20 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/3283ce185151645.655e9960f28aa.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar20">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal20" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/3283ce185151645.655e9960f28aa.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/3283ce185151645.655e9960f28aa.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 21 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ac059b185151645.655e9960efb42.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar21">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal21" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ac059b185151645.655e9960efb42.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ac059b185151645.655e9960efb42.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 22 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/47fdac185151645.655e9961068c3.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar22">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal22" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/47fdac185151645.655e9961068c3.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/47fdac185151645.655e9961068c3.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 23 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/6e6884185151645.655e9960e0692.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar23">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal23" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/6e6884185151645.655e9960e0692.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/6e6884185151645.655e9960e0692.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 24 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/b8a55b185151645.655e99610bffa.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar24">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal24" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/b8a55b185151645.655e99610bffa.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/b8a55b185151645.655e99610bffa.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 25 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/a39205185151645.655e9960ed1e1.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar25">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal25" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/a39205185151645.655e9960ed1e1.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/a39205185151645.655e9960ed1e1.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 26 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/95e4e0185151645.655e9960db071.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar26">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal26" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/95e4e0185151645.655e9960db071.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/95e4e0185151645.655e9960db071.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 27 -->
+      <div class="contenedor-edicion" data-categoria="Thumbnails">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/51e5ee185151645.655e9960e7ebe.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar27">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal27" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/51e5ee185151645.655e9960e7ebe.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/51e5ee185151645.655e9960e7ebe.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 28 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/220e1e179322141.64f79c25c6c07.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar28">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal28" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/220e1e179322141.64f79c25c6c07.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/220e1e179322141.64f79c25c6c07.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 29 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2e0c86179322141.64f79c25c46b1.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar29">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal29" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2e0c86179322141.64f79c25c46b1.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2e0c86179322141.64f79c25c46b1.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 30 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/5f00cc179322141.64f79c25c2719.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar30">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal30" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/5f00cc179322141.64f79c25c2719.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/5f00cc179322141.64f79c25c2719.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 31 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b8bd19179322141.64f79c25c5fbe.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar31">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal31" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b8bd19179322141.64f79c25c5fbe.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b8bd19179322141.64f79c25c5fbe.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 32 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/96f9f5179322141.64f79c25c3989.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar32">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal32" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/96f9f5179322141.64f79c25c3989.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/96f9f5179322141.64f79c25c3989.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 33 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/645829179322141.64f79c25c17d0.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar33">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal33" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/645829179322141.64f79c25c17d0.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/645829179322141.64f79c25c17d0.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 34 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/43f639179322141.64f79c25c0b69.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar34">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal34" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/disp/43f639179322141.64f79c25c0b69.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/43f639179322141.64f79c25c0b69.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 35 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c1cbd3179322141.64f79c25c3051.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar35">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal35" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c1cbd3179322141.64f79c25c3051.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c1cbd3179322141.64f79c25c3051.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 36 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8c4e65179323419.64f7a2c860dce.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar36">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal36" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8c4e65179323419.64f7a2c860dce.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8c4e65179323419.64f7a2c860dce.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 37 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4a5cf9179323419.64f7a2c8619ef.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar37">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal37" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4a5cf9179323419.64f7a2c8619ef.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4a5cf9179323419.64f7a2c8619ef.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 38 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/378cb2179322245.64f79c99d3617.jpg"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar38">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal38" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/378cb2179322245.64f79c99d3617.jpg"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/378cb2179322245.64f79c99d3617.jpg"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 39 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e6f7a5184536405.6553ba8e96c94.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar39">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal39" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e6f7a5184536405.6553ba8e96c94.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e6f7a5184536405.6553ba8e96c94.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 40 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b6fd76179323483.64f7a2fe7ca70.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar40">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal40" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b6fd76179323483.64f7a2fe7ca70.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b6fd76179323483.64f7a2fe7ca70.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+      <!-- Caja 41 -->
+      <div class="contenedor-edicion" data-categoria="Diseños">
+        <div class="contenedor-edicion01">
+          <div class="edicion_video"><img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/594a6e179323483.64f7a2fe7c0b0.png"
+              max-width="none" height="180" alt="Miniatura del video de YouTube" /></div>
+          <div class="edicion_botones"><button class="btnPrevisualizar41">Previsualizar</button><button><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Quiero este estilo!</a></button></div>
+        </div>
+      </div><!-- Ventana emergente de la caja -->
+      <div id="modal41" class="modal">
+        <div class="modal-content">
+          <div class="textcontainer"><a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/594a6e179323483.64f7a2fe7c0b0.png"
+              target="_blank"><img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/594a6e179323483.64f7a2fe7c0b0.png"
+                max-width="none" height="500" /></a></div>
+          <div class="infbutton"><button class="infobutton"><a
+                href="https://wa.me/584129209763?text=Hola%20estoy%20interesado%20en%20tu%20servicio%20de%20dise%C3%B1o%20y%20creaci%C3%B3n%20de%20miniaturas%3A%0A%0A-Miniatura%20%3D%203%24"
+                target="_blank">¡Contáctame!</a></button></div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <ul class="sidebar-list">
+      <div class="tooltip">
+        <!-- Botón Home -->
+        <a href="./index.html">
+          <li class="sidebar-item01">
+            <i class="fa-solid fa-house"></i></li>
+        </a>
+        <span class="tooltiptext">Home</span>
+      </div>
+      <!-- Boton de diseños -->
+      <div class="tooltip">
+        <a href="./diseño.html">
+          <li class="sidebar-item02"><i class="fa-regular fa-image"></i></li>
+        </a>
+        <span class="tooltiptext">Diseños</span>
+      </div>
+      <!-- Botón de ediciones -->
+      <div class="tooltip">
+        <a href="./edicion.html">
+          <li class="sidebar-item03">
+            <i class="fa-solid fa-video"></i></li>
+        </a>
+        <span class="tooltiptext">Ediciones</span>
+      </div>
+      <!-- Botón de info -->
+      <div class="tooltip">
+        <li class="sidebar-item04">
+          <i class="fa-solid fa-circle-info"></i>
+        </li>
+        <span class="tooltiptext">Info</span>
+      </div>
+    </ul>
+
+    <!-- Ventana emergente de info -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <div class="textcontainer">
+          <p>
+            ¡Hola! Ofrezco servicios de edición básica de video a precios
+            asequibles. Aquí están mis tarifas:<br /><br />
+
+            - Videos de menos de 5 minutos: $10<br />
+            - Videos de 5 a 10 minutos: $15<br />
+            - Shorts para Tik-Tok/Youtube: 5$<br />
+            - Miniaturas: 3$<br /><br />
+
+            Mi servicio de edición básica incluye el uso de videos de stock,
+            transiciones y motion graphics para mejorar la calidad visual de
+            tus videos. Estos elementos pueden agregarle un toque profesional
+            y dinámico a tus videos, haciéndolos más atractivos y
+            efectivos.<br /><br />
+
+            Estoy comprometido en proporcionar un servicio de alta calidad que
+            se ajuste a tus necesidades y presupuesto. Si estás buscando una
+            edición básica pero efectiva para tus videos, estaré encantado de
+            ayudarte. ¡Contáctame para discutir más detalles y trabajar juntos
+            en tu proyecto!
+          </p>
+        </div>
+        <div class="infbutton">
+          <button class="infobutton">
+            <a href="https://wa.me/+584129209763?text=%C2%A1Hola!%20Estoy%20interesado%20en%20tus%20servicios%20de%20edici%C3%B3n%20y%20dise%C3%B1o%20de%20miniaturas."
+              target="_blank">¡Contáctame!</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="seleccionador.js"></script>
+</body>
+
 </html>
